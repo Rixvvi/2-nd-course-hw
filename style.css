@@ -186,6 +186,10 @@
 .card_3 {
   height: 551px;
 }
+.card-link {
+  text-decoration: none;
+  color: #202027;
+}
 
 .cards {
   display: grid;
