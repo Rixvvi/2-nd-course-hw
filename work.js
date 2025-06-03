@@ -36,7 +36,7 @@ let userName = prompt("Как вас зовут?");
 alert(`Привет, ${userName}!`);
 
 const user = {
-    name: Печенька,
+    name: 'Печенька',
     age: 3,
     isAdmin: false
 };
