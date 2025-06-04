@@ -91,26 +91,23 @@ if (d > 100 || e > 100) {
 let aa = '2';
 let bb = '3';
 // Код выше изменять менять нельзя. Чтобы решить задачу исправьте код ниже:
-aa = 2;
-bb = 3;
-alert(aa + bb);
+alert(Number(aa) + Number(bb));
 
 
-let monthNumber = 12;
-
+let monthNumber = 66;
 switch (monthNumber) {
-   case monthNumber === 12 || monthNumber === 1 || monthNumber === 2:
+   case 12: case 1: case 2:
       console.log("зима");
       break;
-   case monthNumber === 3 || monthNumber === 4 || monthNumber === 5:
+   case 3: case 4: case 5:
       console.log("весна");
       break;
-    case monthNumber === 6 || monthNumber === 7 || monthNumber === 8:
+    case 6: case 7: case 8:
         console.log("лето");
         break;
-    case monthNumber === 9 || monthNumber === 10 || monthNumber === 11:
+    case 9: case 10: case 11:
         console.log("осень");
         break;
    default:
-      console.log('Месяцев всего 12');
+      console.log('Нет времени года для такого месяца');
 }
