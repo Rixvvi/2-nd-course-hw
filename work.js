@@ -93,8 +93,7 @@ let bb = '3';
 // Код выше изменять менять нельзя. Чтобы решить задачу исправьте код ниже:
 alert(Number(aa) + Number(bb));
 
-
-let monthNumber = 66;
+let monthNumber = 12;
 switch (monthNumber) {
    case 12: case 1: case 2:
       console.log("зима");
@@ -111,3 +110,39 @@ switch (monthNumber) {
    default:
       console.log('Нет времени года для такого месяца');
 }
+
+for (let i = 1; i < 3; i++) {
+    console.log('Привет');
+}
+
+let i = 1;
+while (i < 6) {
+    console.log(i);
+    i++;
+}
+
+for (let i = 7; i < 23; i++) {
+    console.log(i);
+}
+
+const obj = {
+    "Коля": '200',
+    "Вася": '300',
+    "Петя": '400'
+}
+
+for (let key in obj) {
+    console.log(`${key}: ${obj[key]}`);
+}
+
+let n = 1000;
+do {
+   console.log(n / 2);
+   n = n / 2
+} while(n > 50);
+
+let v = Number(prompt('Введите число дня первой пятницы в месяце'))
+do {
+    console.log(`Сегодня пятница, ${v}-е число`);
+    v+=7;
+} while (v<=31)

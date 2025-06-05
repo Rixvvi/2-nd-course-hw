@@ -329,6 +329,9 @@
   .games {
     display: none;
   }
+  .header {
+    height: 700px;
+  }
   .header__hello {
     font-size: 40px;
     text-align: center;
@@ -375,5 +378,107 @@
     top: 580px;
     left: 304px;
     border-width: 1px;
+  }
+  .star-first-little {
+    display: none;
+  }
+  .star-first-big {
+    display: none;
+  }
+  .star-second-little {
+    display: none;
+  }
+  .star-second-big {
+    display: none;
+  }
+  .mini-games {
+    height: 3740px;
+  }
+  .mini-games__about {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    padding-top: 48px;
+    margin-bottom: 48px;
+  }
+  .plays {
+    margin-bottom: 24px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .plays-rev {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .play {
+    margin-right: 29px;
+    margin-left: 29px;
+    margin-top: 29px;
+    margin-bottom: 32px;
+    max-width: 285px;
+  }
+  .play__name {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+  }
+  .play__description {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+  .play__button {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 285px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+  }
+  .game-size1 {
+    height: 529px;
+  }
+  .game-size2 {
+    height: 568px;
+  }
+  .game-size3 {
+    height: 568px;
+  }
+  .game-size4 {
+    height: 607px;
+  }
+  .game-size5 {
+    height: 568px;
+  }
+  .game-size6 {
+    height: 627px;
   }
 }/*# sourceMappingURL=style.css.map */
