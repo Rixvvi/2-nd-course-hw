@@ -40,7 +40,7 @@
   letter-spacing: 0%;
   text-align: center;
   color: #FFFFFF;
-  width: 247px;
+  width: 117px;
   border: 1px solid #202027;
   background-color: #202027;
   border-radius: 60px;
@@ -49,6 +49,8 @@
   padding-bottom: 16px;
   padding-left: 65px;
   margin-top: 48px;
+  text-decoration: none;
+  display: block;
 }
 .header__button:hover {
   background: none;
@@ -111,6 +113,30 @@
 .star-big-outline {
   top: 822px;
   left: 45.18px;
+  border-width: 1px;
+  position: absolute;
+}
+.star-first-little {
+  top: 93px;
+  right: 124px;
+  border-width: 1px;
+  position: absolute;
+}
+.star-first-big {
+  top: 126px;
+  right: 45px;
+  border-width: 1px;
+  position: absolute;
+}
+.star-second-little {
+  bottom: 45px;
+  right: 150px;
+  border-width: 1px;
+  position: absolute;
+}
+.star-second-big {
+  bottom: 65px;
+  right: 52px;
   border-width: 1px;
   position: absolute;
 }
@@ -211,6 +237,90 @@
   margin-bottom: 36px;
 }
 
+.mini-games {
+  background-color: #202027;
+  height: 3500px;
+  position: relative;
+}
+.mini-games__about {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #FFFFFF;
+  margin-bottom: 72px;
+}
+
+.plays {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  height: 500px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play {
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  width: 505px;
+}
+.play__name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.play__description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+.play__button {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: #202027;
+  border-radius: 60px;
+  width: 247px;
+  color: #FFFFFF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid #202027;
+}
+.play__button:hover {
+  background-color: #FFFFFF;
+  color: #202027;
+}
+
+.footer {
+  background-color: #BDED35;
+  height: 150px;
+}
+.footer__text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 61px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -230,7 +340,9 @@
     max-width: 296px;
   }
   .header__button {
-    width: 285px;
+    width: 78px;
+    padding-right: 103.5px;
+    padding-left: 103.5px;
     margin-top: 36px;
     font-size: 16px;
   }

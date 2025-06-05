@@ -9,50 +9,37 @@
     <title>Games</title>
 </head>
 <body>
-    <script src="work.js"></script>
     <header class="center header">
         <section class="header__mobile">
             <h1 class="header__hello">Добро пожаловать <br> на мой сайт мини-игр</h1>
             <p class="header__description">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и приступай.</p>
-            <a href="#section2"><button class="header__button">Поехали!</button></a>
+            <a href="#section2" class="header__button">Поехали!</a>
         </section>
-
         <picture class="star-big-green">
             <source media="(min-width: 768px)" srcset="./img/big_green_star.png">
             <source media="(max-width: 767px)" srcset="./img/mobile_big_green.png">
             <img src="./img/big_green_star.png" alt="Звездочка">
         </picture>
-
         <picture class="star-small">
             <source media="(min-width: 768px)" srcset="./img/small_star.png">
             <source media="(max-width: 767px)" srcset="./img/mobile_small_outline.png">
             <img src="./img/small_star.png" alt="Звездочка">
         </picture>
-
         <picture class="star-giant">
             <source media="(min-width: 768px)" srcset="./img/giant_star.png">
             <source media="(max-width: 767px)" srcset="img/mobile_giant.png">
             <img src="./img/giant_star.png" alt="Звездочка">
         </picture>
-
         <picture class="star-small-green">
             <source media="(min-width: 768px)" srcset="./img/small_green_star.png">
             <source media="(max-width: 767px)" srcset="img/mobile_small_green.png">
             <img src="./img/small_green_star.png" alt="Звездочка">
         </picture>
-
         <picture class="star-big">
             <source media="(min-width: 768px)" srcset="./img/big_star.png">
             <source media="(max-width: 767px)" srcset="img/mobile_big_outline.png">
             <img src="./img/big_star.png" alt="Звездочка">
         </picture>
-
-        <picture class="header__strip">
-            <source media="(min-width: 768px)" srcset="">
-            <source media="(max-width: 767px)" srcset="">
-            <img src="" alt="Полоса прокрутки">
-        </picture>
-
     </header>
     <section id="section2" class="center games">
         <section>
@@ -61,7 +48,7 @@
         </section>
         <section class="cards">
             <div class="cards__block">
-                <a class="card-link" href="">
+                <a class="card-link" href="#play1">
                     <article class="card card_1">
                         <img src="./img/game_1.png" alt="Игра 1">
                         <div class="text">
@@ -70,7 +57,7 @@
                         </div>
                     </article>
                 </a>
-                <a class="card-link" href="">
+                <a class="card-link" href="#play4">
                     <article class="card card_3">
                         <img src="./img/game_4.png" alt="Игра 4">
                         <div class="text">
@@ -81,7 +68,7 @@
                 </a>
             </div>
             <div class="cards__block">
-                <a class="card-link" href="">
+                <a class="card-link" href="#play2">
                     <article class="card card_2">
                         <img src="./img/game_2.png" alt="Игра 2">
                         <div class="text">
@@ -90,7 +77,7 @@
                         </div>
                     </article>
                 </a>
-                <a class="card-link" href="">
+                <a class="card-link" href="#play5">
                     <article class="card card_2">
                         <img src="./img/game_5.png" alt="Игра 5">
                         <div class="text">
@@ -101,7 +88,7 @@
                 </a>
             </div>
             <div class="cards__block">
-                <a class="card-link" href="">
+                <a class="card-link" href="#play3">
                     <article class="card card_1">
                         <img src="./img/game_3.png" alt="Игра 3">
                         <div class="text">
@@ -110,7 +97,7 @@
                         </div>
                     </article>
                 </a>
-                <a class="card-link" href="">
+                <a class="card-link" href="#play6">
                     <article class="card card_3">
                         <img src="./img/game_6.png" alt="Игра 6">
                         <div class="text">
@@ -125,5 +112,72 @@
         <div class="star-big-outline"><img src="./img/big_star_outline.png" alt="Звездочка"></div>
         <div class="star-giant-outline"><img src="./img/giant_star_outline.png" alt="Звездочка"></div>
     </section>
+    <section class="center mini-games">
+        <h1 class="mini-games__about">Мини-игры</h1>
+        <div class="star-first-little">
+            <img src="./img/my_little_star.png" alt="Звездочка">
+        </div>
+        <div class="star-first-big">
+            <img src="./img/my_big_star.png" alt="Звездочка">
+        </div>
+        <article id="play1" class="plays">
+            <div class="play">
+                <h3 class="play__name">Угадай число</h3>
+                <p class="play__description">Попробуй угадать случайное <br> число от 1 до 100.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+            <img src="./img/1_game.png" alt="1 игра">
+        </article>
+        <article id="play2" class="plays">
+            <img src="./img/2_game.png" alt="2 игра">
+            <div class="play">
+                <h3 class="play__name">Простая арифметика</h3>
+                <p class="play__description">Попробуй решить простые <br> арифметические задачи.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+        </article>
+        <article id="play3" class="plays">
+            <div class="play">
+                <h3 class="play__name">Переверни текст</h3>
+                <p class="play__description">Попробуй ввести текст, который <br> будет перевернут.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+            <img src="./img/3_game.png" alt="3 игра">
+        </article>
+        <article id="play4" class="plays">
+            <img src="./img/4_game.png" alt="4 игра">
+            <div class="play">
+                <h3 class="play__name">Камень,<br> ножницы,<br> бумага</h3>
+                <p class="play__description">Сыграй в популярную игру <br> против компьютера.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+        </article>
+        <article id="play5" class="plays">
+            <div class="play">
+                <h3 class="play__name">Простая викторина</h3>
+                <p class="play__description">Отвечай на вопросы викторины <br> с вариантами ответов.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+            <img src="./img/5_game.png" alt="5 игра">
+        </article>
+        <article id="play6" class="plays">
+            <img src="./img/6_game.png" alt="6 игра">
+            <div class="play">
+                <h3 class="play__name">Генератор <br> случайных <br> чисел</h3>
+                <p class="play__description">Игра, в которой при клике на кнопку <br> фон страницы меняется на случайный.</p>
+                <button class="play__button">Играть!</button>
+            </div>
+        </article>
+        <div class="star-second-little">
+            <img src="./img/my_little_star.png" alt="Звездочка">
+        </div>
+        <div class="star-second-big">
+            <img src="./img/my_big_star.png" alt="Звездочка">
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
+    <script src="work.js"></script>
 </body>
 </html>

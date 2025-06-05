@@ -40,3 +40,74 @@ const user = {
     age: 3,
     isAdmin: false
 };
+
+let password = '12345';
+let value = prompt('Введите пароль');
+if (value === password) {
+    console.log("Пароль введен верно")
+} else {
+    console.log("Пароль введен неправильно")
+}
+
+let c = 7;
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+c = 0;
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+c = 10;
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+c = -3;
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+c = 2
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+
+let d = 101;
+let e = 16;
+if (d > 100 || e > 100) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+
+let aa = '2';
+let bb = '3';
+// Код выше изменять менять нельзя. Чтобы решить задачу исправьте код ниже:
+alert(Number(aa) + Number(bb));
+
+
+let monthNumber = 66;
+switch (monthNumber) {
+   case 12: case 1: case 2:
+      console.log("зима");
+      break;
+   case 3: case 4: case 5:
+      console.log("весна");
+      break;
+    case 6: case 7: case 8:
+        console.log("лето");
+        break;
+    case 9: case 10: case 11:
+        console.log("осень");
+        break;
+   default:
+      console.log('Нет времени года для такого месяца');
+}
