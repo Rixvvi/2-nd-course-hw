@@ -120,51 +120,83 @@
         <div class="star-first-big">
             <img src="./img/my_big_star.png" alt="Звездочка">
         </div>
-        <article id="play1" class="plays">
+
+
+
+        <article id="play1" class="plays plays-rev game-size1">
             <div class="play">
                 <h3 class="play__name">Угадай число</h3>
                 <p class="play__description">Попробуй угадать случайное <br> число от 1 до 100.</p>
                 <button class="play__button">Играть!</button>
             </div>
-            <img src="./img/1_game.png" alt="1 игра">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/1_game.png">
+                <source media="(max-width: 767px)" srcset="./img/first.png">
+                <img src="./img/1_game.png" alt="1 игра">
+            </picture>
         </article>
-        <article id="play2" class="plays">
-            <img src="./img/2_game.png" alt="2 игра">
+
+        <article id="play2" class="plays game-size2">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/2_game.png">
+                <source media="(max-width: 767px)" srcset="./img/second.png">
+                <img src="./img/2_game.png" alt="2 игра">
+            </picture>
             <div class="play">
                 <h3 class="play__name">Простая арифметика</h3>
                 <p class="play__description">Попробуй решить простые <br> арифметические задачи.</p>
                 <button class="play__button">Играть!</button>
             </div>
         </article>
-        <article id="play3" class="plays">
+
+        <article id="play3" class="plays plays-rev game-size3">
             <div class="play">
                 <h3 class="play__name">Переверни текст</h3>
                 <p class="play__description">Попробуй ввести текст, который <br> будет перевернут.</p>
                 <button class="play__button">Играть!</button>
             </div>
-            <img src="./img/3_game.png" alt="3 игра">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/3_game.png">
+                <source media="(max-width: 767px)" srcset="./img/third.png">
+                <img src="./img/3_game.png" alt="3 игра">
+            </picture>
         </article>
-        <article id="play4" class="plays">
-            <img src="./img/4_game.png" alt="4 игра">
+
+        <article id="play4" class="plays game-size4">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/4_game.png">
+                <source media="(max-width: 767px)" srcset="./img/fourth.png">
+                <img src="./img/4_game.png" alt="4 игра">
+            </picture>
             <div class="play">
                 <h3 class="play__name">Камень,<br> ножницы,<br> бумага</h3>
                 <p class="play__description">Сыграй в популярную игру <br> против компьютера.</p>
                 <button class="play__button">Играть!</button>
             </div>
         </article>
-        <article id="play5" class="plays">
+
+        <article id="play5" class="plays plays-rev game-size5">
             <div class="play">
                 <h3 class="play__name">Простая викторина</h3>
                 <p class="play__description">Отвечай на вопросы викторины <br> с вариантами ответов.</p>
                 <button class="play__button">Играть!</button>
             </div>
-            <img src="./img/5_game.png" alt="5 игра">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/5_game.png">
+                <source media="(max-width: 767px)" srcset="./img/fifth.png">
+                <img src="./img/5_game.png" alt="5 игра">
+            </picture>
         </article>
-        <article id="play6" class="plays">
-            <img src="./img/6_game.png" alt="6 игра">
+
+        <article id="play6" class="plays game-size6">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./img/6_game.png">
+                <source media="(max-width: 767px)" srcset="./img/sixth.png">
+                <img src="./img/6_game.png" alt="6 игра">
+            </picture>
             <div class="play">
                 <h3 class="play__name">Генератор <br> случайных <br> чисел</h3>
-                <p class="play__description">Игра, в которой при клике на кнопку <br> фон страницы меняется на случайный.</p>
+                <p class="play__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
                 <button class="play__button">Играть!</button>
             </div>
         </article>
@@ -175,9 +207,9 @@
             <img src="./img/my_big_star.png" alt="Звездочка">
         </div>
     </section>
+
     <footer class="footer">
         <p class="footer__text">Все права защищены.</p>
     </footer>
-    <script src="work.js"></script>
 </body>
 </html>
